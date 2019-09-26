@@ -1,0 +1,30 @@
+body {
+    background: linear-gradient(to right, rgb(59, 36, 80), rgb(83, 37, 37));
+}
+
+#quiz {
+    color: rgb(185, 100, 202);
+}
+
+#submit, #reset {
+    font-size: 20px;
+    background-color: blueviolet;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+}
+
+#submit:hover, #reset:hover {
+    background-color: green;
+}
+
+.answers {
+    margin-bottom: 20px;
+}
+
+.answers label {
+    display:block;
+}
